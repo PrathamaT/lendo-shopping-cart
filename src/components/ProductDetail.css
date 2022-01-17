@@ -1,0 +1,30 @@
+.productDetail{
+    display:flex;
+    padding: 4% 12%;
+    margin-top: 32px;
+    width: 100%;
+    align-items:center;
+    box-sizing: border-box;
+ }
+
+ .productDetail__title{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom:16px;
+    /* margin: 0px 26px; */
+ }
+
+ .productDetail__left{
+    width: 50%;
+ }
+
+.productDetail__left>img{
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.productDetail__right{
+    width: 50%;
+    margin: 0px 10px 0px 37px;
+ }

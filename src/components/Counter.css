@@ -1,0 +1,17 @@
+.counter_number{
+    padding: 0px 5px;
+    width: 15px;
+}
+
+.counter{
+    width: 114px;
+    display: flex;
+    padding: 8px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.counter__decrement:disabled,
+.counter__increment:disabled{
+    color: grey;
+}
